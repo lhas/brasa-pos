@@ -5,14 +5,6 @@ import Home from "./Home";
 const AppRouter = () => (
   <Router>
     <div>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-      </ul>
-
-      <hr />
-
       <Route exact path="/" component={Home} />
     </div>
   </Router>
